@@ -1,0 +1,692 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto",Arial,sans-serif;
+}
+header {
+    height: 40px;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header i {
+    color: #299adc;
+}
+.ic-em {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 120px;  
+    gap: 5px;
+}
+.ic-em p {
+    margin-top: 0%;
+    color: #999;
+}
+.icons {
+    margin-right: 450px;
+}
+.icons i {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    padding: 13px 13px;
+    margin-top: 3px;
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-book {
+    background-color: #299adc;
+    color: white;
+    border: none;
+    margin-right: 120px;
+    cursor: pointer;
+}
+.logo-text {
+    display: flex;
+    
+}
+.logo-text h1 {
+    margin-top: 11px;
+    text-transform: uppercase;
+}
+.logo-text h1 {
+    color: #299adc;
+}
+.icon-text {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icon-text > i {
+    border: 1px solid rgba(0,0,0,.05);
+    padding: 10px 10px;
+    color: #299adc;
+}
+span {
+    color: #299adc;
+}
+.icon-text p {
+    font-weight: bold;
+    margin: 0%;
+}
+.call-us p {
+    font-weight: 100;
+    color: #999;
+    font-size: 15px;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 110px;
+}
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #299ADC;
+}
+nav ul {
+    padding-top: 17px;
+    margin: 0px 50px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-top: 0px; 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.doctor {
+    background-image: url(/assets/images/Doctor.webp) ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+.doctor h1 {
+    margin: 0;
+    padding-top: 180px;
+    padding-left: 750px;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Roboto",Arial,sans-serif;
+}
+.doctor p {
+    font-family: "Roboto",Arial,sans-serif;
+    line-height: 2rem;
+    padding-left: 750px;
+    color: rgb(155, 148, 148);
+}
+.buttons .btn-department {
+    margin-left: 750px;
+    padding: 20px 40px;
+    background-color: white;
+    color: rgba(37, 34, 34, 0.5);
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.btn-department select{
+    border: none;
+}
+.buttons .btn-appointment {   
+    cursor: pointer;
+    background-color: rgb(58, 211, 58);
+    transition: 0.3s;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-left: -40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.btn-appointment:hover {
+    background-color: #299adc;
+}
+.left_side_form {
+    background-color: #F8F9FA;
+    height: 700px;
+    width: 100%;
+}
+.left_side_form h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 90px;
+    padding-left:  100px;
+
+}
+.icons_img {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.icons_img img {
+    padding: 15px 15px;
+}
+.icon_text {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.main_div_icons {
+    display: flex;
+}
+.heading h3 {
+    padding-top: 30px;
+}
+.heading p {
+    color: #999;
+    line-height: 1.8rem;
+}
+.app_form {
+    color: #299adc;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 200px;
+  
+}
+input {
+    padding: 15px 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.btn-app {
+    background-color: #3bc053;
+    padding: 20px 118px;
+    border: 1px solid #3bc053;
+    color: white;
+    cursor: pointer;
+    transform: 1s;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn-app:hover {
+    background-color: transparent;
+    color: #3bc053;
+    border: 1px solid #3bc053;
+}
+.appoin_form {
+    display: flex;
+    gap: 50px;
+}
+.dr_patient {
+    display: flex;
+   gap: 100px;
+    margin: 0px 150px;
+}
+.dr-img {
+    background-size: cover;
+    background-position: center;
+}
+.dr-img img {
+    object-fit: cover;
+}
+.dr-text {
+    margin-top: 100px;
+}
+.dr-text h1 {
+    font-size: 40px;
+}
+.dr-text p {
+    color: #999;
+    line-height: 1.7rem;
+}
+.btn-appoint {
+    padding: 18px 40px;
+    color: white;
+    background-color: #299adc;
+    border: none;
+    cursor: pointer;
+}
+.btn-contact {
+    background-color: #3bc053;
+    padding: 18px 40px;
+    border: 1px solid #3bc053;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-contact:hover {
+    background-color: transparent;
+    color: #3bc053;
+    border: 1px solid #3bc053;
+    color: #4CA7DD
+}
+.health {
+    background: linear-gradient(rgba(15, 82, 207, 0.8), rgba(63, 107, 189, 0.8)), url('/assets/images/nurse.webp');
+    background-position: center;
+    height: 300px;
+
+}
+.health h1 {
+    color: white;
+   padding-top: 80px;
+   font-size: 40px;
+   margin-left: 600px;
+   margin-bottom: 0;
+}
+.health p {
+    color: white;
+    margin-left: 600px;
+
+}
+.btn-a {
+    padding: 20px 25px;
+    background-color: white;
+    border: none;
+    margin-left: 600px;
+    cursor: pointer;
+}
+.med-dept  h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 36px;
+}
+.dept a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+.dept {
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    /* margin: 100px 130px; */
+    border-right: none;
+  
+}
+.neorology_text p {
+    line-height: 1.8rem;
+    color: #999999;
+}
+.neorology_text .tick {
+    border: 1px solid #999999;
+    padding: 10px 0px;
+}
+.neorology_text .tick i {
+    color: #299ADC;
+    padding-left: 15px;
+}
+.main_div_neo {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 100px 90px;
+}
+.dept img {
+    object-fit: cover;
+}
+.qualified {
+    height: 950px;
+    width: 100%;
+    background-color: #F8F9FA;
+}
+.qu_heading {
+    padding-top: 90px ;
+    text-align: center;
+    font-size: 28px;
+}
+.doctors img {
+    border-radius: 50%;
+    border: 10px solid #F8F9FA;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-top:-100px;
+   
+}
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    transform: 0.5s;
+    margin-top: 150px;
+    transition: 0.5s;
+}
+.card:hover {
+    background-color: #299ADC;
+}
+.card:hover h3 {
+    color: white;
+}
+.card:hover h4 {
+    color: white;
+}
+.card:hover p {
+    color: white;
+}
+.card:hover i {
+    color: white;
+}
+.card:hover i {
+   border: solid 1px white;
+}
+.card h3 {
+    text-align: center;
+    padding-top: 0;
+}
+
+.card h4 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-size: 15px;
+    color: #299ADC;
+}
+
+.card p {
+    color: #999;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dr_social_accounts {
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.dr_social_accounts i {
+    height: 20px;
+    width: 20px;
+    border: solid 1px #999999;
+    padding: 14px 14px;
+    align-items: center;
+    color: #299ADC;
+}
+.dr_social_accounts i:hover {
+    color: white;
+}
+.card_main_div {
+    display: flex;
+    margin: 0px 50px;
+    gap: 30px;
+}
+.card_boxes {
+    width: 25%;
+}
+.boxes {
+    border: 1px solid white;
+    width: 20%;
+    margin-top: 90px;
+    padding: 10px 50px;
+}
+.boxes h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.boxes p {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+.four_boxes {
+    display: flex;
+    margin: 50px 100px;
+    gap: 25px;
+ 
+}
+.bg-girl {
+    height: 300px;
+    background: linear-gradient(rgba(43, 214, 114, 0.8), rgba(4, 114, 23, 0.8)), url('/assets/images/nurse.webp');
+    background-position: center;
+
+}
+.blog_heading h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 38px;
+}
+.blog_heading p {
+    text-align: center;
+    color: #999999;
+}
+.icons_dr i {
+    color: #299ADC;
+}
+.icons_dr p {
+    color: #299ADC;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+.icons_dr {
+    display: flex;
+    gap: 10px;
+}
+.dr_card {
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    margin-top: -90px;
+    margin-left: 10px;
+}
+.dr_card h1 {
+    margin-left:  20px ;
+    font-size: 21px;
+    font-weight: 500;
+}
+.dr_card p {
+    line-height: 2rem;
+    margin-left: 20px;
+    color: #999;
+}
+.btn-read_more {
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: 1px solid #3bc053;
+    color: #3bc053;
+    cursor: pointer;
+ transition: 0.3s;
+    background-color: white;
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+
+}
+.btn-read_more:hover {
+    background-color: #3bc053;
+    color: white;
+}
+
+.blogs {
+    background-color: #F8F9FA;
+    height: 950px;
+}
+.doctor_box {
+    width: 33%;
+    margin-top: 100px;
+}
+.dr_three_boxes {
+    display: flex;
+    margin: 30px;
+    gap:30px;
+    
+}
+.text_card {
+    display: flex;
+    gap: 25px;
+}
+.patient_heading h5 {
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: center;
+padding-top: 100px;
+color: white;
+}
+.patient_heading h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 0;
+    text-align: center;
+}
+.patient_box img {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.patient_box {
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    width: 330px;
+    background-color: white;
+}
+.para {
+    line-height: 2rem;
+    
+}
+.para h2 {
+    margin-bottom: 0;
+}
+.para h4 {
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: #299ADC;
+}
+.patients {
+    background: linear-gradient(rgba(43, 166, 214, 0.8), rgba(57, 105, 177, 0.8)), url('/assets/images/patient\ bg.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.patients_three_boxes {
+    display: flex;
+    gap: 30px;
+    margin: 0px 100px;
+}
+.last_section {
+    background-color: #F2F2F2;
+    height: 500px;
+}
+.med_text {
+    display: flex;
+}
+.med_icon img {
+    margin-top: 13px;
+}
+.med_heading h3{
+    color: #299ADC;
+}
+.medex_para p {
+    line-height: 1.8rem;
+}
+.med_icons {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+.med_icons i {
+    color: #299ADC;
+    padding: 18px 18px;
+}
+.med_all_icons {
+    display: flex;
+    gap:10px;
+}
+
+.med_icons {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.chevron_dept {
+    display: flex;
+    gap: 8px;
+}
+.chevron_dept i {
+    color: #299ADC;
+    margin: 10px 0px;
+}
+.chevron_dept a {
+    margin-top: 0;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+    margin: 10px 0px;
+}
+.chevron_dept a:hover {
+    color: #299ADC;
+}
+.chevron_dept p {
+    margin-top: 0;
+}
+.blue-color {
+    color: #299ADC;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.dept_links h3 {
+    margin-bottom: 50px;
+}
+.dept_links {
+    width: 20%;
+}
+.dept_links {
+    width: 20%;
+}
+.links {
+    width: 20%;
+}
+.services {
+    width: 20%;
+}
+.question {
+    width: 20%;
+}
+.question  h3 {
+    text-transform: uppercase;
+}
+.link_heading {
+    margin-bottom: 50px;
+}
+.services_heading {
+    margin-bottom: 50px;
+}
+.question_heading {
+    margin-bottom: 50px;
+}
+.main_div_last_section {
+    display: flex;
+    padding-top: 100px;
+    margin: 0px 80px;
+    gap:20px;
+}
+.footer {
+    height: 130px;
+    background-color: #3bc053;
+}
+.footer p {
+    text-align: center;
+    padding-top: 65px;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.7);
+}

@@ -1,0 +1,452 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto",Arial,sans-serif;
+}
+header {
+    height: 40px;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header i {
+    color: #299adc;
+}
+.ic-em {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 120px;  
+    gap: 5px;
+}
+.ic-em p {
+    margin-top: 0%;
+    color: #999;
+}
+.icons {
+    margin-right: 450px;
+}
+.icons i {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    padding: 13px 13px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: inline-block;
+    justify-content: center;
+}
+.btn-book {
+    background-color: #299adc;
+    color: white;
+    border: none;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+.logo-text {
+    display: flex;
+    
+}
+.logo-text h1 {
+    margin-top: 11px;
+    text-transform: uppercase;
+}
+.logo-text h1 {
+    color: #299adc;
+}
+.icon-text {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icon-text > i {
+    border: 1px solid rgba(0,0,0,.05);
+    padding: 10px 10px;
+    color: #299adc;
+}
+span {
+    color: #299adc;
+}
+.icon-text p {
+    font-weight: bold;
+    margin: 0%;
+}
+.call-us p {
+    font-weight: 100;
+    color: #999;
+    font-size: 15px;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 110px;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #299ADC;
+}
+nav ul {
+    padding-top: 17px;
+    margin: 0px 50px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-top: 0px; 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.doctor {
+    background-image: url(/assets/images/about\ dr.webp) ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    
+}
+.about_text{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    margin-left: 70px;
+}
+.home_about {
+    display: flex;
+    gap: 10px;
+}
+.home_about p {
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+.about_heading h1 {
+    font-size: 40px;
+    color: #299ADC;
+    font-weight: 700;
+    margin-top: 0;
+}
+.doctor a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+   font-size: 19px;
+   font-weight: 600;
+
+}
+.doctor a:hover {
+    color: #299ADC;
+}
+.doctor a i:hover {
+    color: #299ADC;
+}
+.doctor i {
+    color: rgba(0, 0, 0, 0.5);
+}
+.doctor h4 {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+.about_heading h1 {
+    font-size: 40px;
+    color: #299ADC;
+}
+
+.qualified {
+    height: 1450px;
+    width: 100%;
+    background-color: #F8F9FA;
+}
+.qu_heading {
+    padding-top: 90px ;
+    text-align: center;
+    font-size: 28px;
+}
+.doctors img {
+    border-radius: 50%;
+    border: 10px solid #F8F9FA;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-top:-100px;
+   
+}
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    transform: 0.5s;
+    margin-top: 150px;
+    
+}
+
+.card h3 {
+    text-align: center;
+    padding-top: 0;
+}
+
+.card h4 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-size: 15px;
+    color: #299ADC;
+}
+
+.card p {
+    color: #999;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dr_social_accounts {
+    margin: 0px 40px;
+}
+.dr_social_accounts i {
+    height: 20px;
+    width: 20px;
+    border: solid 1px #999999;
+    padding: 13px 13px;
+    color: #299ADC;
+}
+.card_main_div {
+    display: flex;
+    margin: 0px 50px;
+    gap: 30px;
+}
+.card_boxes {
+    width: 25%;
+}
+
+.app_form {
+    color: #299adc;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 200px;
+  
+}
+input {
+    padding: 15px 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.btn-app {
+    background-color: #3bc053;
+    padding: 20px 118px;
+    border: 1px solid #3bc053;
+    color: white;
+    cursor: pointer;
+    transform: 1s;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn-app:hover {
+    background-color: transparent;
+    color: #3bc053;
+    border: 1px solid #3bc053;
+}
+.appoin_form {
+    display: flex;
+    gap: 50px;
+}
+.appoin_form {
+    display: flex;
+    gap: 50px;
+}
+.left_side_form {
+    background-color: #F8F9FA;
+    height: 700px;
+    width: 100%;
+}
+.left_side_form h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 90px;
+    padding-left:  100px;
+
+}
+.main_div_icons {
+    display: flex;
+}
+.icon_text {
+    display: flex;
+    gap: 15px;   
+}
+.icons_img {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.icons_img img {
+    padding: 15px 15px;
+}
+.heading h3 {
+    padding-top: 30px;
+}
+.heading p {
+    color: #999;
+}
+.app_form {
+    color: #299adc;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 200px;
+  
+}
+input {
+    padding: 15px 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.btn-app {
+    background-color: #3bc053;
+    padding: 20px 118px;
+    border: 1px solid #3bc053;
+    color: white;
+    cursor: pointer;
+    transform: 1s;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn-app:hover {
+    background-color: transparent;
+    color: #3bc053;
+    border: 1px solid #3bc053;
+}
+.appoin_form {
+    display: flex;
+    gap: 50px;
+}
+
+.last_section {
+    background-color: #F2F2F2;
+    height: 500px;
+}
+.med_text {
+    display: flex;
+}
+.med_icon img {
+    margin-top: 13px;
+}
+.med_heading h3{
+    color: #299ADC;
+}
+.medex_para p {
+    line-height: 1.8rem;
+}
+.med_icons {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+.med_icons i {
+    color: #299ADC;
+    padding: 18px 18px;
+}
+.med_all_icons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.med_icons {
+    display: flex;
+    justify-content: space-between;
+
+}
+.chevron_dept {
+    display: flex;
+    gap: 8px;
+}
+.chevron_dept i {
+    color: #299ADC;
+    margin: 10px 0px;
+}
+.chevron_dept a {
+    margin-top: 0;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+    margin: 10px 0px;
+}
+.chevron_dept a:hover {
+    color: #299ADC;
+}
+.chevron_dept p {
+    margin-top: 0;
+}
+.blue-color {
+    color: #299ADC;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.dept_links h3 {
+    margin-bottom: 50px;
+}
+.dept_links {
+    width: 20%;
+}
+.dept_links {
+    width: 20%;
+}
+.links {
+    width: 20%;
+}
+.services {
+    width: 20%;
+}
+.question {
+    width: 20%;
+}
+.question  h3 {
+    text-transform: uppercase;
+}
+.link_heading {
+    margin-bottom: 50px;
+}
+.services_heading {
+    margin-bottom: 50px;
+}
+.question_heading {
+    margin-bottom: 50px;
+}
+.main_div_last_section {
+    display: flex;
+    padding-top: 100px;
+    margin: 0px 80px;
+    gap: 20px;
+}
+.footer {
+    height: 130px;
+    background-color: #3bc053;
+}
+.footer p {
+    text-align: center;
+    padding-top: 65px;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
